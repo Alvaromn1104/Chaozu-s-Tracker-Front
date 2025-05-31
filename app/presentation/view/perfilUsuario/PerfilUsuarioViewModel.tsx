@@ -42,23 +42,6 @@ const GetInforUserProfileModel = () => {
 
 }
 
-const GetFavoritosViewModel = () => {
-    const { favorites, loadFavorites } = useFavorites();
-    const [favoriteItems, setFavoriteItems] = useState<string[]>([]);
-
-    useEffect(() => {
-        loadFavorites();
-    }, []);
-
-    useEffect(() => {
-        const favoriteIds = Object.keys(favorites).filter((key) => favorites[key] && key !== "undefined");
-        setFavoriteItems(favoriteIds);
-    }, [favorites]);
-
-    return {
-        favoriteItems,
-    };
-}
 
 const EditarPerfilViewModel = () => {
     const [errorMessage, setErrorMessage] = useState('');
@@ -98,4 +81,4 @@ const EditarPerfilViewModel = () => {
     };
 };
 
-export default {PerfilUsuarioViewModel, GetInforUserProfileModel, GetFavoritosViewModel, EditarPerfilViewModel};
+export default {PerfilUsuarioViewModel, GetInforUserProfileModel, EditarPerfilViewModel};

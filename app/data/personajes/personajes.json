@@ -1,0 +1,1550 @@
+[
+  {
+    "nombreId": "Gohan (Adolescente) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747152006/GohanTeenSSJ_qhbusg.png",
+    "id": 12,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Gohan (Adulto)",
+    "id": 13,
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747152005/GohanAdultBase_y1hci4.png",
+    "principal": true,
+    "raza": "Saiyan",
+    "saga": "Majin Buu",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Gohan (Adolescente) Super Saiyan 2",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747152005/GohanTeenSSJ2_owkbxy.png",
+    "id": 14,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Gohan (Adulto) Super Saiyan",
+    "id": 15,
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747152005/GohanAdultSSJ_b3ak2y.png",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Gohan (Adulto) Super Saiyan 2",
+    "id": 16,
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747152005/GohanAdultSSJ2_nv7wus.png",
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Gran Saiyaman",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747152005/Saiyaman_lqvmim.png",
+    "principal": true,
+    "id": 17,
+    "raza": "Saiyan",
+    "saga": "Majin Buu",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Gohan Definitivo",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747152005/GohanDefinitive_rvwnm6.png",
+    "principal": true,
+    "id": 18,
+    "raza": "Saiyan",
+    "saga": "Majin Buu",
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Son Gohan del futuro",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151984/GohanFutureBase_iflvwk.png",
+    "principal": true,
+    "id": 19,
+    "raza": "Saiyan",
+    "saga": "Célula",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Son Gohan del futuro Súper Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151983/GohanFutureSSJ_e7rzll.png",
+    "id": 20,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Piccolo (Fusión con Kami)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151983/PiccoloKami_o1uozm.png",
+    "principal": true,
+    "id": 21,
+    "raza": "Namekiano",
+    "saga": "Célula",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Piccolo",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151983/Piccolo_tlw4xc.png",
+    "principal": true,
+    "id": 22,
+    "raza": "Namekiano",
+    "saga": "Saiyan",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Krillin",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151983/Krillin_mqcrnf.png",
+    "principal": true,
+    "id": 23,
+    "raza": "Terrícola",
+    "saga": "Saiyan",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Nail",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151983/Nail_limthz.png",
+    "principal": true,
+    "id": 24,
+    "raza": "Namekiano",
+    "saga": "Saiyan",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Yamcha",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151983/Yamcha_du2rss.png",
+    "principal": true,
+    "id": 25,
+    "raza": "Terrícola",
+    "saga": "Saiyan",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Tenshinhan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151983/TienShinhan_v8o7qk.png",
+    "principal": true,
+    "id": 26,
+    "raza": "Terrícola",
+    "saga": "Saiyan",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Trunks (Base)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151983/TrunksZ_a9rbmb.png",
+    "principal": true,
+    "id": 27,
+    "raza": "Saiyan",
+    "saga": "Célula",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Trunks (Espada)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151983/TrunksSword_xadc2k.png",
+    "principal": true,
+    "id": 28,
+    "raza": "Saiyan",
+    "saga": "Célula",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Trunks (Espada) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151983/TrunksSwordSSJ_ti0r3d.png",
+    "id": 29,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Super Trunks",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151982/SuperTrunks_wofxqa.png",
+    "id": 30,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Trunks (Futuro)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151982/TrunksSuper_gahi0g.png",
+    "principal": true,
+    "id": 31,
+    "raza": "Saiyan",
+    "saga": "Célula",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Trunks (Futuro) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151982/TrunksSuperSSJ_pwfkqo.png",
+    "id": 32,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Trunks (Base) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151982/TrunksZSSJ_lzwpgv.png",
+    "id": 33,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Trunks (Niño)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151982/TrunksTeen_igyefv.png",
+    "principal": true,
+    "id": 34,
+    "raza": "Saiyan",
+    "saga": "Majin Buu",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Trunks (Niño) Súper Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151982/TrunksTeenSSJ_al97ua.png",
+    "id": 35,
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Son Goten Súper Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151964/GotenSSJ_i8zrmy.png",
+    "id": 36,
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Vegetto Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151964/VeggetoSSJ_ynporu.png",
+    "id": 37,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Son Goten",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151964/GotenBase_hrymiy.png",
+    "principal": true,
+    "id": 38,
+    "raza": "Saiyan",
+    "saga": "Majin Buu",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Vegetto",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151964/VeggetoBase_bldjo2.png",
+    "principal": true,
+    "id": 39,
+    "raza": "Fusión",
+    "saga": "Majin Buu",
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Vegetto Super Saiyan Blue",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151964/VeggetoSSB_d9sfhp.png",
+    "id": 40,
+    "coste_dp": 10
+  },
+  {
+    "nombreId": "Gogeta (Z) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151964/SuperGogeta_g1ovly.png",
+    "principal": true,
+    "id": 41,
+    "raza": "Fusión",
+    "saga": "Películas",
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Gogeta (Super) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151963/GogetaSSJ_iefyuy.png",
+    "id": 42,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Gogeta (Super)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151963/GogetaBase_zarwkd.png",
+    "principal": true,
+    "id": 43,
+    "raza": "Fusión",
+    "saga": "Películas",
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Gogeta (Super) Super Saiyan Blue",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151963/GogetaSSB_toxck4.png",
+    "id": 44,
+    "coste_dp": 10
+  },
+  {
+    "nombreId": "Gogeta (GT) Super Saiyan 4",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151963/GogetaSS4_prxe1l.png",
+    "id": 45,
+    "coste_dp": 10
+  },
+  {
+    "nombreId": "Gotenks Super Saiyan 3",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151963/GotenksSSJ3_vdh6nf.png",
+    "id": 46,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Gotenks (Base)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151963/GotenksBase_ytddfs.png",
+    "principal": true,
+    "id": 47,
+    "raza": "Saiyan",
+    "saga": "Majin Buu",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Gotenks Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151963/GotenksSSJ_coabub.png",
+    "id": 48,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Videl",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151963/Bulma_ff4amd.png",
+    "principal": true,
+    "id": 49,
+    "raza": "Terrícola",
+    "saga": "Majin Buu",
+    "coste_dp": 2
+  },
+  {
+    "nombreId": "Maestro Roshi (Base)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151963/MasterRoshi_brynhl.png",
+    "principal": true,
+    "id": 50,
+    "raza": "Terrícola",
+    "saga": "Saiyan",
+    "coste_dp": 2
+  },
+  {
+    "nombreId": "Maestro Roshi (Máximo Poder)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151963/MasterRoshiMax_fbnaov.png",
+    "id": 51,
+    "coste_dp": 2
+  },
+  {
+    "nombreId": "Freezer (Tercera forma)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151948/Freezer3_amwcqt.png",
+    "id": 52,
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Freezer (Primera forma)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151948/Freezer1_jkpvql.png",
+    "principal": true,
+    "id": 53,
+    "raza": "Demonios del Frío",
+    "saga": "Namek",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Freezer (Segunda forma)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151948/Freezer2_bg5onj.png",
+    "id": 54,
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Freezer (Forma final)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151948/Freezer4_sqtilx.png",
+    "id": 55,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Mecha Freezer",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151947/MechaFreezer_qez5f6.png",
+    "principal": true,
+    "id": 56,
+    "raza": "Demonios del Frío",
+    "saga": "Películas",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Freezer (Súper)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151947/FreezerSuper_qlehpj.png",
+    "principal": true,
+    "id": 57,
+    "raza": "Demonios del Frío",
+    "saga": "Super",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Freezer dorado",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151947/FreezerGold_cxlgqi.png",
+    "id": 58,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Freezer (100% Poder)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151947/FreezerMax_edheby.png",
+    "id": 59,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Cell (Primera forma)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151947/Cell1_xzlhzu.png",
+    "principal": true,
+    "id": 60,
+    "raza": "Mutante",
+    "saga": "Célula",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Cell (Segunda forma)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151947/Cell2_vigc5b.png",
+    "id": 61,
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Cell (Perfecto)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151947/CellPerfect_vu15hp.png",
+    "id": 62,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Célula (Forma perfecta)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151947/CellSemiPerfect_l0p3dr.png",
+    "id": 63,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Cell Jr.",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151947/CellJR_lbaupv.png",
+    "principal": true,
+    "id": 64,
+    "raza": "Mutante",
+    "saga": "Célula",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Majin Buu (Gordo)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151947/MajinBoo_ua4gzb.png",
+    "principal": true,
+    "id": 65,
+    "raza": "Majin",
+    "saga": "Majin Buu",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Majin Buu (Malvado)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151947/BooMonster_xfylpn.png",
+    "principal": true,
+    "id": 66,
+    "raza": "Majin",
+    "saga": "Majin Buu",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Super Buu",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151934/SuperBoo_byethk.png",
+    "principal": true,
+    "id": 67,
+    "raza": "Majin",
+    "saga": "Majin Buu",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Super Buu (Gotenks absorbido)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151934/Bootenks_olqgyf.png",
+    "id": 68,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Super Buu (Gohan absorbido)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151934/Boohan_zkjp0g.png",
+    "id": 69,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Kid Buu",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151934/KidBoo_faudvc.png",
+    "principal": true,
+    "id": 70,
+    "raza": "Majin",
+    "saga": "Majin Buu",
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Chaoz",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151934/Chaozu_ph66pv.png",
+    "principal": true,
+    "id": 71,
+    "raza": "Terrícola",
+    "saga": "Saiyan",
+    "coste_dp": 2
+  },
+  {
+    "nombreId": "Mr. Satán",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151934/MrSatan_zhbych.png",
+    "principal": true,
+    "id": 72,
+    "raza": "Terrícola",
+    "saga": "Majin Buu",
+    "coste_dp": 1
+  },
+  {
+    "nombreId": "Yajirobe",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151934/Jajirobe_m6kmz5.png",
+    "principal": true,
+    "id": 73,
+    "raza": "Terrícola",
+    "saga": "Saiyan",
+    "coste_dp": 2
+  },
+  {
+    "nombreId": "Pan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151933/Pan_nnz4nk.png",
+    "principal": true,
+    "id": 74,
+    "raza": "Saiyan",
+    "saga": "GT",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Uub",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151933/Ub_nyopgp.png",
+    "principal": true,
+    "id": 75,
+    "raza": "Saiyan-Humano",
+    "saga": "Majin Buu",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Majuub",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151933/Majuub_fqieac.png",
+    "id": 76,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Bardock",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151933/Bardock_okcrdg.png",
+    "principal": true,
+    "id": 77,
+    "raza": "Saiyan",
+    "saga": "Películas",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Raditz",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151933/Raditz_lllppi.png",
+    "principal": true,
+    "id": 78,
+    "raza": "Saiyan",
+    "saga": "Saiyan",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Saibaman",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151933/Saibaman_pmigr9.png",
+    "principal": true,
+    "id": 79,
+    "raza": "Alienígena",
+    "saga": "Saiyan",
+    "coste_dp": 2
+  },
+  {
+    "nombreId": "Nappa",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151933/Nappa_wewx5t.png",
+    "principal": true,
+    "id": 80,
+    "raza": "Alienígena",
+    "saga": "Saiyan",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Zarbon (Base)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151921/Zarbon_hvnu7z.png",
+    "principal": true,
+    "id": 81,
+    "raza": "Alienígena",
+    "saga": "Namek",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Zarbon (Transformado)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151920/SuperZabon_mahbzu.png",
+    "id": 82,
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Dodoria",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151920/Dodoria_bmxwqk.png",
+    "principal": true,
+    "id": 83,
+    "raza": "Alienígena",
+    "saga": "Namek",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Cui",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151920/Cui_dskwdw.png",
+    "principal": true,
+    "id": 84,
+    "raza": "Alienígena",
+    "saga": "Namek",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Recoome",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151920/Recoome_s8azsa.png",
+    "principal": true,
+    "id": 85,
+    "raza": "Alienígena",
+    "saga": "Namek",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Capitán Ginyu",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151920/Ginju_qaskpc.png",
+    "principal": true,
+    "id": 86,
+    "raza": "Desconocida",
+    "saga": "Namek",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Jeice",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151920/Jeice_sfatxp.png",
+    "principal": true,
+    "id": 87,
+    "raza": "Alienígena",
+    "saga": "Namek",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Burter",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151920/Burter_umju52.png",
+    "principal": true,
+    "id": 88,
+    "raza": "Alienígena",
+    "saga": "Namek",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Guldo",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151920/Guldo_ngpxfv.png",
+    "principal": true,
+    "id": 89,
+    "raza": "Alienígena",
+    "saga": "Namek",
+    "coste_dp": 2
+  },
+  {
+    "nombreId": "Rey Cold",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151920/KingCold_k9ggnc.png",
+    "principal": true,
+    "id": 90,
+    "raza": "Demonios del Frío",
+    "saga": "Célula",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Androide 16",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151920/Android16_u2g8ij.png",
+    "principal": true,
+    "id": 91,
+    "raza": "Androide",
+    "saga": "Célula",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Androide 17 (Z)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151919/Android17_ly1rtl.png",
+    "principal": true,
+    "id": 92,
+    "raza": "Androide",
+    "saga": "Célula",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Androide 17 (Super)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151919/Android17Super_hp4v3v.png",
+    "principal": true,
+    "id": 93,
+    "raza": "Androide",
+    "saga": "Célula",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Androide 19",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151919/Android19_tbwc0z.png",
+    "principal": true,
+    "id": 94,
+    "raza": "Androide",
+    "saga": "Célula",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Androide 18",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151919/Android18_hkiiuo.png",
+    "principal": true,
+    "id": 95,
+    "raza": "Androide",
+    "saga": "Célula",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Dr. Gero",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151919/DrGero_wsyciv.png",
+    "principal": true,
+    "id": 96,
+    "raza": "Androide",
+    "saga": "Célula",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Babidi",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151908/Babidi_uwmmeb.png",
+    "principal": true,
+    "id": 97,
+    "raza": "Hechicero",
+    "saga": "Majin Buu",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Broly (Z)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151908/BrolyZ_duv3bx.png",
+    "principal": true,
+    "id": 98,
+    "raza": "Saiyan",
+    "saga": "Películas",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Dabura",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151908/Dabra_k0wese.png",
+    "principal": true,
+    "id": 99,
+    "raza": "Demonio",
+    "saga": "Majin Buu",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Soldado del Ejército de Freezer",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151908/FreezerSoldier_g36bfq.png",
+    "principal": true,
+    "id": 100,
+    "raza": "Demonios del Frío",
+    "saga": "Namek",
+    "coste_dp": 2
+  },
+  {
+    "nombreId": "Broly (Z) Súper Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151908/BrolyZSSJ_gwancz.png",
+    "id": 101,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Broly (Z) Súper Saiyan legendario",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151908/BolyZSSJL_uksbkn.png",
+    "id": 102,
+    "coste_dp": 9
+  },
+  {
+    "nombreId": "Broly (Super) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151907/BrolySuperSSJ_xdgxkm.png",
+    "id": 103,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Broly (Super)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151907/BolySuper_nf5ehf.png",
+    "principal": true,
+    "id": 104,
+    "raza": "Saiyan",
+    "saga": "Películas",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Garlic Jr.",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151907/SuperGarlicJr_k8fe3p.png",
+    "principal": true,
+    "id": 105,
+    "raza": "Makyan",
+    "saga": "Películas",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Broly (Super) Super Saiyan Full Power",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151907/BrolySuperSSJL_fc8qde.png",
+    "id": 106,
+    "coste_dp": 9
+  },
+  {
+    "nombreId": "Cooler",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151907/Cooler_swisjo.png",
+    "principal": true,
+    "id": 107,
+    "raza": "Demonios del Frío",
+    "saga": "Películas",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Cooler (Forma Final)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151907/Cooler2_ypihlz.png",
+    "id": 108,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Metal Cooler",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151907/MetalCooler_mh3crw.png",
+    "principal": true,
+    "id": 109,
+    "raza": "Demonios del Frío",
+    "saga": "Películas",
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Androide 13",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151907/Android13_vlzt80.png",
+    "principal": true,
+    "id": 110,
+    "raza": "Androide",
+    "saga": "Célula",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Super Androide 13",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151907/Android13Fusion_v4t1eg.png",
+    "id": 111,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Bojack",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151907/Bojack_uniqut.png",
+    "principal": true,
+    "id": 112,
+    "raza": "Hera",
+    "saga": "Películas",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Bojack (Poder Máximo)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151899/BojackMax_hxszuu.png",
+    "id": 113,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Super Janemba",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151899/SuperJanemba_ba9lng.png",
+    "id": 114,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Janemba",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151899/Janemba_li6joj.png",
+    "principal": true,
+    "id": 115,
+    "raza": "Demonio",
+    "saga": "Películas",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Tapion",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151899/Tapion_dl0xnk.png",
+    "principal": true,
+    "id": 116,
+    "raza": "Conutsiano",
+    "saga": "Películas",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Hildegarn",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151899/Hildegarn_t2bebc.png",
+    "principal": true,
+    "id": 117,
+    "raza": "Desconocida",
+    "saga": "Películas",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Baby Vegeta",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151899/BabyVegeta_omgxv5.png",
+    "principal": true,
+    "id": 118,
+    "raza": "Saiyan",
+    "saga": "GT",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Super Baby 1",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151899/SuperBaby1_zyigyk.png",
+    "id": 119,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Super Baby 2",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151899/SuperBaby2_npef7e.png",
+    "id": 120,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Baby Vegeta (Gran Mono)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151899/BabyOzaru_hpwabh.png",
+    "id": 121,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Shin Shenron",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151899/ShinShenron_jjg5cv.png",
+    "principal": true,
+    "id": 122,
+    "raza": "Dragón Divino",
+    "saga": "GT",
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Omega Shenron",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151899/SuperYiShinLon_uweviq.png",
+    "id": 123,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Spopovich",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151892/Spopovich_izwowx.png",
+    "principal": true,
+    "id": 124,
+    "raza": "Humano",
+    "saga": "Majin Buu",
+    "coste_dp": 2
+  },
+  {
+    "nombreId": "Beerus",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151892/Bills_ilmzed.png",
+    "principal": true,
+    "id": 125,
+    "raza": "Dios",
+    "saga": "Super",
+    "coste_dp": 10
+  },
+  {
+    "nombreId": "Whis",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151891/Whis_su2mam.png",
+    "principal": true,
+    "id": 126,
+    "raza": "Dios",
+    "saga": "Super",
+    "coste_dp": 10
+  },
+  {
+    "nombreId": "Goku Black",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151891/BlackGoku_axsn9q.png",
+    "principal": true,
+    "id": 127,
+    "raza": "Saiyan",
+    "saga": "Super",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Goku Black Super Saiyan Rosé",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151891/BalckGokuSSR_o6de3h.png",
+    "id": 128,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Zamas",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151891/Zamasu_towocp.png",
+    "principal": true,
+    "id": 129,
+    "raza": "Kaioshin",
+    "saga": "Super",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Zamasu (Fusión)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151891/ZamasuFusion_nprc3f.png",
+    "id": 130,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Zamasu (Fusión Corrupta)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151891/ZamasuFusion2_joaxsk.png",
+    "id": 131,
+    "coste_dp": 9
+  },
+  {
+    "nombreId": "Hit",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151891/Hit_ugqjbs.png",
+    "principal": true,
+    "id": 132,
+    "raza": "Desconocida",
+    "saga": "Super",
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Frost",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151891/Frost_czvrr8.png",
+    "principal": true,
+    "id": 133,
+    "raza": "Demonios del Frío",
+    "saga": "Super",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Cabba Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151891/CabbaSSJ_j6g04r.png",
+    "id": 134,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Cabba",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151891/Cabba_ha9irw.png",
+    "principal": true,
+    "id": 135,
+    "raza": "Saiyan",
+    "saga": "Super",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Cabba Super Saiyan 2",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151884/CabbaSSJ2_ubxqb7.png",
+    "id": 136,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Caulifla",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151884/Caulifla_t0jqfz.png",
+    "principal": true,
+    "id": 137,
+    "raza": "Saiyan",
+    "saga": "Super",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Caulifla Super Saiyan 2",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151883/CauliflaSSJ_jqoqdj.png",
+    "id": 138,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Kale",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151883/Kale_dsvkmr.png",
+    "principal": true,
+    "id": 139,
+    "raza": "Saiyan",
+    "saga": "Super",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Kale Super Saiyan Berserk",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151883/KaleSSBerseker_z5uf8z.png",
+    "id": 140,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Kale Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151883/KaleSSJ_d1avmt.png",
+    "id": 141,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Kefla (Base)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151883/Kefla_dh7vbp.png",
+    "principal": true,
+    "id": 142,
+    "raza": "Fusión",
+    "saga": "Super",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Kefla Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151883/KeflaSSJ_w0yilx.png",
+    "id": 143,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Kefla Super Saiyan 2",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151883/KeflasSSJ2_fgdbsi.png",
+    "id": 144,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Jiren",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151883/Jiren_r3volp.png",
+    "principal": true,
+    "id": 145,
+    "raza": "Desconocida",
+    "saga": "Super",
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Jiren (Poder Máximo)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151883/JirenMax_lndnxq.png",
+    "id": 146,
+    "coste_dp": 9
+  },
+  {
+    "nombreId": "Toppo",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151883/Toppo_qb1fbu.png",
+    "principal": true,
+    "id": 147,
+    "raza": "Desconocida",
+    "saga": "Super",
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Toppo (Dios de la Destrucción)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151883/ToppoMax_uiz6z6.png",
+    "id": 148,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Dyspo",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151883/Dypso_mbopwd.png",
+    "principal": true,
+    "id": 149,
+    "raza": "Desconocida",
+    "saga": "Super",
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Kakunsa",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151875/Kakunsa_wxpf3c.png",
+    "principal": true,
+    "id": 150,
+    "raza": "Alienígena",
+    "saga": "Super",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Bergamo",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151875/Bergamo_dln8l7.png",
+    "principal": true,
+    "id": 151,
+    "raza": "Alienígena",
+    "saga": "Super",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Ribrianne",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151875/Ribriane_eunl6x.png",
+    "principal": true,
+    "id": 152,
+    "raza": "Alienígena",
+    "saga": "Super",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Roasy",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151875/Roasy_rpoluc.png",
+    "principal": true,
+    "id": 153,
+    "raza": "Alienígena",
+    "saga": "Super",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Anilaza",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151874/Anilaza_qttdas.png",
+    "principal": true,
+    "id": 154,
+    "raza": "Fusión",
+    "saga": "Super",
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Cell Max",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151873/CellMax_h3quut.png",
+    "principal": true,
+    "id": 155,
+    "raza": "Mutante",
+    "saga": "Película",
+    "coste_dp": 9
+  },
+  {
+    "nombreId": "Gohan (Super Hero) Base",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151874/GohanSH_gumalx.png",
+    "principal": true,
+    "id": 156,
+    "raza": "Saiyan",
+    "saga": "Película",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Gohan (Super Hero) Definitivo",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151874/GohanSHDefinitive_s2h6ye.png",
+    "id": 157,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Gohan (Super Hero) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151874/GohanSHSSJ_wdmuwm.png",
+    "id": 158,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Gohan Beast",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151874/GohanBeast_ufrcs0.png",
+    "id": 159,
+    "coste_dp": 9
+  },
+  {
+    "nombreId": "Piccolo (Super Hero) Base",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151874/PiccoloSH_tzyjeg.png",
+    "principal": true,
+    "id": 160,
+    "raza": "Namekiano",
+    "saga": "Película",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Piccolo (Super Hero) Potencial Desatado",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151874/PiccoloSH1_tqyaqf.png",
+    "id": 161,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Orange Piccolo",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151874/PicoloSHOrange_tskqqg.png",
+    "id": 162,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Gamma 2",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151873/Gamma2_knklip.png",
+    "principal": true,
+    "id": 163,
+    "raza": "Androide",
+    "saga": "Película",
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Orange Piccolo (Forma Gigante)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151873/PiccoloSHOrangeGiant_sr9tvc.png",
+    "id": 164,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Gamma 1",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151873/Gamma1_uf3xur.png",
+    "principal": true,
+    "id": 165,
+    "raza": "Androide",
+    "saga": "Película",
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Goku (Mini) Base",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151873/GokuDaima_y8gc2y.png",
+    "principal": true,
+    "id": 166,
+    "raza": "Saiyan",
+    "saga": "Daima",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Vegeta (Mini) Base",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151865/VegetaDaima_vr37ju.png",
+    "principal": true,
+    "id": 167,
+    "raza": "Saiyan",
+    "saga": "Daima",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Vegeta (Mini) Super Saiyan 2",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151865/VegetaDaimaSSJ2_kxfjaw.png",
+    "id": 168,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Goku (Mini) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151866/GokuDaimaSSJ_rynf85.png",
+    "id": 169,
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Vegeta (Mini) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151865/VegetaDaimaSSJ_mhxc2y.png",
+    "id": 170,
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Vegeta (Mini) Super Saiyan 3",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151865/VegetaDaimaSSJ3_bzobg3.png",
+    "id": 171,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Glorio",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151865/Glorio_mbrhim.png",
+    "principal": true,
+    "id": 172,
+    "raza": "Saiyan",
+    "saga": "Daima",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Majin Kuu",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151865/MajinKuu_urvqxi.png",
+    "principal": true,
+    "id": 173,
+    "raza": "Majin",
+    "saga": "Daima",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Panzy",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151865/Panzu_qfs4jd.png",
+    "principal": true,
+    "id": 174,
+    "raza": "Saiyan",
+    "saga": "Daima",
+    "coste_dp": 2
+  },
+  {
+    "nombreId": "Goku (Z - Inicio)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151865/GokuInicio_mvw2xe.png",
+    "principal": true,
+    "id": 175,
+    "raza": "Saiyan",
+    "saga": "Saiyan",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Goku (Z - Intermedio) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151865/GokuMidSSJ_qkbyft.png",
+    "id": 176,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Goku (Z - Intermedio)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151865/GokuMidBase_cixkcn.png",
+    "principal": true,
+    "id": 177,
+    "raza": "Saiyan",
+    "saga": "Namek",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Goku (Z - Final)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151865/GokuFinalBase_pumutr.png",
+    "principal": true,
+    "id": 178,
+    "raza": "Saiyan",
+    "saga": "Majin Buu",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Goku (Z - Final) Super Saiyan 2",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151864/GokFinalSSJ2_dn9ina.png",
+    "id": 179,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Goku (Z - Final) Super Saiyan 3",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151864/GokuFinalSSJ3_hglkrm.png",
+    "id": 180,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Goku (Z - Final) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151864/GokuFinalSSJ_vbq61t.png",
+    "id": 181,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Goku (Super)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151864/GokuSuperBase_uwevry.png",
+    "principal": true,
+    "id": 182,
+    "raza": "Saiyan",
+    "saga": "Super",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Goku (Super) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151864/GokuSuperSSJ_wkz6h3.png",
+    "id": 183,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Goku (Super) Super Saiyan God",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151864/GokuSuperSSG_gtrt38.png",
+    "id": 184,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Goku (Super) Super Saiyan Blue",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151857/GokuSuperSSB_a2fdql.png",
+    "id": 185,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Goku (Super) Ultra Instinto Signo",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151857/GokuSuperUIS_vbajjd.png",
+    "id": 186,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Goku (GT)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151856/GokuGTBase_gl1xf8.png",
+    "principal": true,
+    "id": 187,
+    "raza": "Saiyan",
+    "saga": "GT",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Goku (Super) Ultra Instinct",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151856/GokuSuperUI_kkvgqq.png",
+    "id": 188,
+    "coste_dp": 9
+  },
+  {
+    "nombreId": "Goku (GT) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151856/GokuGTSSJ_xtixap.png",
+    "id": 189,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Goku (GT) Super Saiyan 3",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151856/GokuGTSSJ3_qnz2a7.png",
+    "id": 190,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Son Goku (Joven)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151856/GokuTeen_huyj5g.png",
+    "principal": true,
+    "id": 191,
+    "raza": "Saiyan",
+    "saga": "Otra",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Goku (GT) Super Saiyan 4",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151856/GokuGTSSJ4_c48bhg.png",
+    "id": 192,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Vegeta (GT) Super Saiyan 4",
+    "principal": true,
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151856/VegetaGTSS4_xjwo86.png",
+    "id": 193,
+    "raza": "Saiyan",
+    "saga": "GT",
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Vegeta (Z - Scouter)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151856/VegetaRastreador_o3qbpa.png",
+    "principal": true,
+    "id": 194,
+    "raza": "Saiyan",
+    "saga": "Saiyan",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Vegeta (Z - Scouter) Gran Simio",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151856/VegetaOzaru_loh0vc.png",
+    "id": 195,
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Vegeta (Z - Intermedio)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151856/VegetaZBase_xmzxi0.png",
+    "principal": true,
+    "id": 196,
+    "raza": "Saiyan",
+    "saga": "Célula",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Vegeta (Super) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151856/VegetaSuperSSJ_k9le3b.png",
+    "id": 197,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Vegeta (Z - Intermedio) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151856/VegetaZSSJ_d9jecm.png",
+    "id": 198,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Super Vegeta",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151855/SuperVegeta_bklnec.png",
+    "id": 199,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Majin Vegeta",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151855/MajinVegeta_dsx6ch.png",
+    "id": 200,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Vegeta (Z - Final)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151855/VegetaZFinalBase_c7sa1f.png",
+    "principal": true,
+    "id": 201,
+    "raza": "Saiyan",
+    "saga": "Majin Buu",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Vegeta (Super)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151855/VegetaSuperBase_nh6lwf.png",
+    "principal": true,
+    "id": 202,
+    "raza": "Saiyan",
+    "saga": "Super",
+    "coste_dp": 5
+  },
+  {
+    "nombreId": "Vegeta (Super) Super Saiyan Blue",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151855/VegetaSuperSSB_gmieni.png",
+    "id": 203,
+    "coste_dp": 8
+  },
+  {
+    "nombreId": "Vegeta (Super) Super Saiyan God",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151855/VegetaSuperSSG_tfgqxd.png",
+    "id": 204,
+    "coste_dp": 7
+  },
+  {
+    "nombreId": "Gohan (Niño)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151855/GohanTeenBase_wnjiq9.png",
+    "principal": true,
+    "id": 205,
+    "raza": "Saiyan",
+    "saga": "Namek",
+    "coste_dp": 3
+  },
+  {
+    "nombreId": "Vegeta (Z - Final) Super Saiyan",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151855/VegetaZFinalSSJ_nblxak.png",
+    "id": 206,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Vegeta (Z - Final) Super Saiyan 2",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747151855/VegetaZFinalSSJ2_tvw5ub.png",
+    "id": 207,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Gohan (Adolescente)",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747991897/GohanTeenBase_ab0mrv.png",
+    "principal": true,
+    "id": 208,
+    "raza": "Saiyan",
+    "saga": "Célula",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Lord Slug",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747991897/Slug_l45p3i.png",
+    "principal": true,
+    "id": 209,
+    "raza": "Namekiano",
+    "saga": "Películas",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Lord Slug Gigante",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747991897/SlugGiant_tzwetn.png",
+    "id": 210,
+    "coste_dp": 6
+  },
+  {
+    "nombreId": "Dr. Willow",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747991897/Dr.Willow_mj35zj.png",
+    "principal": true,
+    "id": 211,
+    "raza": "Humano",
+    "saga": "Películas",
+    "coste_dp": 4
+  },
+  {
+    "nombreId": "Turles",
+    "url": "https://res.cloudinary.com/dbu4lgcff/image/upload/v1747991897/Turles_w7ldcw.png",
+    "principal": true,
+    "id": 212,
+    "raza": "Saiyan",
+    "saga": "Películas",
+    "coste_dp": 4
+  }
+]

@@ -2,6 +2,10 @@ export interface CharacterDetail {
     id: number;
     nombre: string;
     imagen: string;
-    transformaciones: string[];
+    transformaciones: {
+        id: number;
+        nombre: string;
+        imagen: string;
+    }[];
     habilidades: string[];
 }

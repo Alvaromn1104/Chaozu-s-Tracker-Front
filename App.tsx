@@ -7,16 +7,7 @@ import {LoginScreen} from "./app/presentation/view/auth/Login";
 import {RegistroScreen} from "./app/presentation/view/auth/Registro";
 import {CategoriasScreen} from "./app/presentation/view/paginaPrincipal/Categorias";
 import {CharactersScreen} from "./app/presentation/view/personajes/Characters";
-import {GokuDetailsScreen} from "./app/presentation/view/personajes/personajesDetails/Goku(s)Details";
-import {BillsDetailsScreen} from "./app/presentation/view/personajes/personajesDetails/BillsDetails";
-import {BolyDetailsScreen} from "./app/presentation/view/personajes/personajesDetails/Boly(S)Details";
-import {FrezzerDetailsScreen} from "./app/presentation/view/personajes/personajesDetails/FrezzerDetails";
-import {GohanDetailsScreen} from "./app/presentation/view/personajes/personajesDetails/Gohan(SH)Details";
-import {MajinBuuDetailsScreen} from "./app/presentation/view/personajes/personajesDetails/MajinBuuDetails";
-import {PiccoloDetailsScreen} from "./app/presentation/view/personajes/personajesDetails/PiccoloDetails";
-import {TrunksDetailsScreen} from "./app/presentation/view/personajes/personajesDetails/Trunks(z)Details";
-import {VegetaDetailsScreen} from "./app/presentation/view/personajes/personajesDetails/Vegeta(S)Details";
-import {WishDetailsScreen} from "./app/presentation/view/personajes/personajesDetails/WishDetails";
+import {CharacterDetailScreen} from "./app/presentation/view/personajes/personajesDetails/CharacterDetails";
 import {DlcScreen} from "./app/presentation/view/dlc/Dlcs";
 import {NoticiasScreen} from "./app/presentation/view/noticias/Noticias";
 import {PerfilUsuarioScreen} from "./app/presentation/view/perfilUsuario/PerfilUsuario";
@@ -37,6 +28,7 @@ import {PiccoloWhatIfInfoScreen} from "./app/presentation/view/historia/piccolo/
 import {VegetaWhatIf1InfoScreen} from "./app/presentation/view/historia/Vegeta/VegetaWhatIf/VegetaWhatIfI1nfoScreen";
 import {VegetaWhatIf2InfoScreen} from "./app/presentation/view/historia/Vegeta/VegetaWhatIf/VegetaWhatIf2InfoScreen";
 import {EditarPerfilScreen} from "./app/presentation/view/perfilUsuario/EditarPerfilScreen";
+import {PaperProvider} from "react-native-paper";
 
 
 export type RootStackParamList = {
@@ -56,16 +48,7 @@ export type RootStackParamList = {
     GokuHistoriaScreen: undefined,
     PiccoloHistoriaScreen: undefined,
     VegetaHistoriaScreen: undefined,
-    GokuDetailsScreen: {id: number},
-    BillsDetailsScreen: {id: number},
-    BolyDetailsScreen: {id: number},
-    FrezzerDetailsScreen: {id: number},
-    MajinBuuDetailsScreen: {id: number},
-    PiccoloDetailsScreen: {id: number},
-    TrunksDetailsScreen: {id: number},
-    VegetaDetailsScreen: {id: number},
-    WishDetailsScreen: {id: number},
-    GohanDetailsScreen: {id: number},
+    CharacterDetailScreen: { id: number },
     FreezerWhatIfInfoScreen: undefined,
     GohanWhatIfInfoScreen: undefined,
     GokuWhatIf1InfoScreen: undefined,
@@ -91,44 +74,37 @@ export default function App() {
     else {
         return (
 
-            <NavigationContainer>
-                <Stack.Navigator screenOptions={{ headerShown: false }}>
-                    <Stack.Screen name={"CategoriasScreen"} options={{headerShown: false, title: "categorias"}} component={CategoriasScreen}></Stack.Screen>
-                    <Stack.Screen name={"LoginScreen"} component={LoginScreen}></Stack.Screen>
-                    <Stack.Screen name={"RegistroScreen"} options={{headerShown: true, title: "Registro"}} component={RegistroScreen}></Stack.Screen>
-                    <Stack.Screen name={"CharactersScreen"} options={{headerShown: false, title: "personajes"}} component={CharactersScreen}></Stack.Screen>
-                    <Stack.Screen name={"DlcScreen"} options={{headerShown: false, title: "dlcs"}} component={DlcScreen}></Stack.Screen>
-                    <Stack.Screen name={"NoticiasScreen"} options={{headerShown: false, title: "noticias"}} component={NoticiasScreen}></Stack.Screen>
-                    <Stack.Screen name={"PerfilUsuarioScreen"} options={{headerShown: false, title: "perfil de usuario"}} component={PerfilUsuarioScreen}></Stack.Screen>
-                    <Stack.Screen name={"EditarPerfilScreen"} options={{headerShown: false, title: "Editar perfil de usuario"}} component={EditarPerfilScreen}></Stack.Screen>
-                    <Stack.Screen name={"ControlesScreen"} options={{headerShown: false, title: "controles"}} component={ControlesScreen}></Stack.Screen>
-                    <Stack.Screen name={"HistoriaScreen"} options={{headerShown: false, title: "historia"}} component={HistoriaScreen}></Stack.Screen>
-                    <Stack.Screen name={"PlatinoScreen"} options={{headerShown: false, title: "Platino"}} component={PlatinoScreen}></Stack.Screen>
-                    <Stack.Screen name={"FrezzerHistoriaScreen"} options={{headerShown: false, title: "historia de freezer"}} component={FrezzerHistoriaScreen}></Stack.Screen>
-                    <Stack.Screen name={"GohanHistoriaScreen"} options={{headerShown: false, title: "historia de gohan"}} component={GohanHistoriaScreen}></Stack.Screen>
-                    <Stack.Screen name={"GokuHistoriaScreen"} options={{headerShown: false, title: "historia de goku"}} component={GokuHistoriaScreen}></Stack.Screen>
-                    <Stack.Screen name={"PiccoloHistoriaScreen"} options={{headerShown: false, title: "historia de piccolo"}} component={PiccoloHistoriaScreen}></Stack.Screen>
-                    <Stack.Screen name={"VegetaHistoriaScreen"} options={{headerShown: false, title: "historia de vegeta"}} component={VegetaHistoriaScreen}></Stack.Screen>
-                    <Stack.Screen name={"GokuDetailsScreen"} options={{headerShown: false, title: "Goku detalles"}} component={GokuDetailsScreen}></Stack.Screen>
-                    <Stack.Screen name={"BillsDetailsScreen"} options={{headerShown: false, title: "Bills detalles"}} component={BillsDetailsScreen}></Stack.Screen>
-                    <Stack.Screen name={"BolyDetailsScreen"} options={{headerShown: false, title: "Broly detalles"}} component={BolyDetailsScreen}></Stack.Screen>
-                    <Stack.Screen name={"FrezzerDetailsScreen"} options={{headerShown: false, title: "Frezzer detalles"}} component={FrezzerDetailsScreen}></Stack.Screen>
-                    <Stack.Screen name={"MajinBuuDetailsScreen"} options={{headerShown: false, title: "Majin Buu detalles"}} component={MajinBuuDetailsScreen}></Stack.Screen>
-                    <Stack.Screen name={"PiccoloDetailsScreen"} options={{headerShown: false, title: "Piccolo detalles"}} component={PiccoloDetailsScreen}></Stack.Screen>
-                    <Stack.Screen name={"TrunksDetailsScreen"} options={{headerShown: false, title: "Trunks detalles"}} component={TrunksDetailsScreen}></Stack.Screen>
-                    <Stack.Screen name={"VegetaDetailsScreen"} options={{headerShown: false, title: "Vegeta detalles"}} component={VegetaDetailsScreen}></Stack.Screen>
-                    <Stack.Screen name={"WishDetailsScreen"} options={{headerShown: false, title: "Wish detalles"}} component={WishDetailsScreen}></Stack.Screen>
-                    <Stack.Screen name={"GohanDetailsScreen"} options={{headerShown: false, title: "Gohan detalles"}} component={GohanDetailsScreen}></Stack.Screen>
-                    <Stack.Screen name={"FreezerWhatIfInfoScreen"} options={{headerShown: false, title: "Frezzer what if details"}} component={FreezerWhatIfInfoScreen}></Stack.Screen>
-                    <Stack.Screen name={"GohanWhatIfInfoScreen"} options={{headerShown: false, title: "Gohan what if details"}} component={GohanWhatIfInfoScreen}></Stack.Screen>
-                    <Stack.Screen name={"GokuWhatIf1InfoScreen"} options={{headerShown: false, title: "Goku what if 1 details"}} component={GokuWhatIf1InfoScreen}></Stack.Screen>
-                    <Stack.Screen name={"GokuWhatIf2InfoScreen"} options={{headerShown: false, title: "Goku what if 2 details"}} component={GokuWhatIf2InfoScreen}></Stack.Screen>
-                    <Stack.Screen name={"GokuWhatIf3InfoScreen"} options={{headerShown: false, title: "Goku what if 3 details"}} component={GokuWhatIf3InfoScreen}></Stack.Screen>
-                    <Stack.Screen name={"PiccoloWhatIfInfoScreen"} options={{headerShown: false, title: "Piccolo what if details"}} component={PiccoloWhatIfInfoScreen}></Stack.Screen>
-                    <Stack.Screen name={"VegetaWhatIf1InfoScreen"} options={{headerShown: false, title: "Vegeta what if 1 details"}} component={VegetaWhatIf1InfoScreen}></Stack.Screen>
-                    <Stack.Screen name={"VegetaWhatIf2InfoScreen"} options={{headerShown: false, title: "Vegeta what if 2 details"}} component={VegetaWhatIf2InfoScreen}></Stack.Screen>
-                </Stack.Navigator>
-            </NavigationContainer>
+            <PaperProvider>
+                <NavigationContainer>
+                    <Stack.Navigator screenOptions={{ headerShown: false }}>
+                        <Stack.Screen name={"CategoriasScreen"} options={{headerShown: false, title: "categorias"}} component={CategoriasScreen}></Stack.Screen>
+                        <Stack.Screen name={"LoginScreen"} component={LoginScreen}></Stack.Screen>
+                        <Stack.Screen name={"RegistroScreen"} options={{headerShown: true, title: "Registro"}} component={RegistroScreen}></Stack.Screen>
+                        <Stack.Screen name={"CharactersScreen"} options={{headerShown: false, title: "personajes"}} component={CharactersScreen}></Stack.Screen>
+                        <Stack.Screen name={"DlcScreen"} options={{headerShown: false, title: "dlcs"}} component={DlcScreen}></Stack.Screen>
+                        <Stack.Screen name={"NoticiasScreen"} options={{headerShown: false, title: "noticias"}} component={NoticiasScreen}></Stack.Screen>
+                        <Stack.Screen name={"PerfilUsuarioScreen"} options={{headerShown: false, title: "perfil de usuario"}} component={PerfilUsuarioScreen}></Stack.Screen>
+                        <Stack.Screen name={"EditarPerfilScreen"} options={{headerShown: false, title: "Editar perfil de usuario"}} component={EditarPerfilScreen}></Stack.Screen>
+                        <Stack.Screen name={"ControlesScreen"} options={{headerShown: false, title: "controles"}} component={ControlesScreen}></Stack.Screen>
+                        <Stack.Screen name={"HistoriaScreen"} options={{headerShown: false, title: "historia"}} component={HistoriaScreen}></Stack.Screen>
+                        <Stack.Screen name={"PlatinoScreen"} options={{headerShown: false, title: "Platino"}} component={PlatinoScreen}></Stack.Screen>
+                        <Stack.Screen name={"FrezzerHistoriaScreen"} options={{headerShown: false, title: "historia de freezer"}} component={FrezzerHistoriaScreen}></Stack.Screen>
+                        <Stack.Screen name={"GohanHistoriaScreen"} options={{headerShown: false, title: "historia de gohan"}} component={GohanHistoriaScreen}></Stack.Screen>
+                        <Stack.Screen name={"GokuHistoriaScreen"} options={{headerShown: false, title: "historia de goku"}} component={GokuHistoriaScreen}></Stack.Screen>
+                        <Stack.Screen name={"PiccoloHistoriaScreen"} options={{headerShown: false, title: "historia de piccolo"}} component={PiccoloHistoriaScreen}></Stack.Screen>
+                        <Stack.Screen name={"VegetaHistoriaScreen"} options={{headerShown: false, title: "historia de vegeta"}} component={VegetaHistoriaScreen}></Stack.Screen>
+                        <Stack.Screen name={"CharacterDetailScreen"} options={{headerShown: false, title: "Detalles de personajes"}} component={CharacterDetailScreen}></Stack.Screen>
+                        <Stack.Screen name={"FreezerWhatIfInfoScreen"} options={{headerShown: false, title: "Frezzer what if details"}} component={FreezerWhatIfInfoScreen}></Stack.Screen>
+                        <Stack.Screen name={"GohanWhatIfInfoScreen"} options={{headerShown: false, title: "Gohan what if details"}} component={GohanWhatIfInfoScreen}></Stack.Screen>
+                        <Stack.Screen name={"GokuWhatIf1InfoScreen"} options={{headerShown: false, title: "Goku what if 1 details"}} component={GokuWhatIf1InfoScreen}></Stack.Screen>
+                        <Stack.Screen name={"GokuWhatIf2InfoScreen"} options={{headerShown: false, title: "Goku what if 2 details"}} component={GokuWhatIf2InfoScreen}></Stack.Screen>
+                        <Stack.Screen name={"GokuWhatIf3InfoScreen"} options={{headerShown: false, title: "Goku what if 3 details"}} component={GokuWhatIf3InfoScreen}></Stack.Screen>
+                        <Stack.Screen name={"PiccoloWhatIfInfoScreen"} options={{headerShown: false, title: "Piccolo what if details"}} component={PiccoloWhatIfInfoScreen}></Stack.Screen>
+                        <Stack.Screen name={"VegetaWhatIf1InfoScreen"} options={{headerShown: false, title: "Vegeta what if 1 details"}} component={VegetaWhatIf1InfoScreen}></Stack.Screen>
+                        <Stack.Screen name={"VegetaWhatIf2InfoScreen"} options={{headerShown: false, title: "Vegeta what if 2 details"}} component={VegetaWhatIf2InfoScreen}></Stack.Screen>
+                    </Stack.Navigator>
+                </NavigationContainer>
+            </PaperProvider>
         )
     }
 

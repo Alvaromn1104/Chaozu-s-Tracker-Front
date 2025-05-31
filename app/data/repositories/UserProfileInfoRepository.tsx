@@ -15,4 +15,24 @@ export class UserProfileInfoRepositoryImpl implements UserProfileInfoRepository{
             throw null;
         }
     }
+
+    async addFavorito(id: number, personajeId: number): Promise<void> {
+        try {
+            await ApiDelivery.patch(`/users_profiles/${id}/favoritos/add/${personajeId}`);
+        } catch (error) {
+            const e = error as AxiosError;
+            console.error("Error al añadir favorito: " + JSON.stringify(e.response?.data));
+            throw null;
+        }
+    }
+
+    async removeFavorito(id: number, personajeId: number): Promise<void> {
+        try {
+            await ApiDelivery.patch(`/users_profiles/${id}/favoritos/remove/${personajeId}`);
+        } catch (error) {
+            const e = error as AxiosError;
+            console.error("Error al eliminar favorito: " + JSON.stringify(e.response?.data));
+            throw null;
+        }
+    }
 }

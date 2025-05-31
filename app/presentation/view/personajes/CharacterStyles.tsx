@@ -8,6 +8,11 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+    fila: {
+        flexDirection: "row",
+        justifyContent: "space-evenly",
+        marginVertical: 10,
+    },
     imagenChaoz: {
         marginTop: 15,
         width: 50,
@@ -34,6 +39,40 @@ const styles = StyleSheet.create({
         flexWrap: "wrap",
         justifyContent: "center",
         marginTop: 20,
+    },
+    buscador: {
+        backgroundColor: "#fff",
+        margin: 10,
+        padding: 8,
+        borderRadius: 8,
+    },
+    filtrosFila: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        marginHorizontal: 10,
+        marginTop: 10,
+        gap: 6,
+    },
+
+    botonLimpiarWrapper: {
+        alignItems: "center",
+        marginVertical: 5,
+    },
+
+    botonLimpiar: {
+        backgroundColor: "#f4b400",
+        borderRadius: 24,
+        width: 48,
+        height: 48,
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    encabezadoFijo: {
+        paddingTop: 20,
+        paddingHorizontal: 16,
+        paddingBottom: 10,
+        backgroundColor: 'transparent',
     },
 });
 

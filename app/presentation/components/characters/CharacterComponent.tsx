@@ -1,46 +1,25 @@
-import {Image, StyleSheet, View, Text, TouchableOpacity} from "react-native";
-import {RootStackParamList} from "../../../../App";
-import {NativeStackNavigationProp} from "@react-navigation/native-stack";
-import {AppTheme} from "../../theme/AppThemes";
-
+import { Image, StyleSheet, View, Text, TouchableOpacity } from "react-native";
+import { RootStackParamList } from "../../../../App";
+import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { AppTheme } from "../../theme/AppThemes";
 
 interface Props {
-    url: string,
-    text: string,
+    id: number;
+    nombre: string;
+    imagen: string;
     navigation: NativeStackNavigationProp<RootStackParamList, keyof RootStackParamList>;
 }
 
-const imagenSource: {[key: string]: {id: number, image: any, details: keyof RootStackParamList }} = {
-    "goku": { id: 1, image: require("../../../../assets/characters/goku.png"), details: "GokuDetailsScreen"},
-    "vegeta": { id: 2, image: require("../../../../assets/characters/vegeta.png"), details: "VegetaDetailsScreen"},
-    "wish": { id: 3, image: require("../../../../assets/characters/wish.png"), details: "WishDetailsScreen"},
-    "bills": { id: 4, image: require("../../../../assets/characters/bills.png"), details: "BillsDetailsScreen"},
-    "gohan(sh)": { id: 5, image: require("../../../../assets/characters/gohan(sh).png"), details: "GohanDetailsScreen"},
-    "trunks(z)": { id: 6, image: require("../../../../assets/characters/trunks(z).png"), details: "TrunksDetailsScreen"},
-    "piccolo": { id: 7, image: require("../../../../assets/characters/piccolo.png"), details: "PiccoloDetailsScreen"},
-    "frezzer": { id: 8, image: require("../../../../assets/characters/frezzer.png"), details: "FrezzerDetailsScreen"},
-    "majinBuu": { id: 9, image: require("../../../../assets/characters/majinBuu.png"), details: "MajinBuuDetailsScreen"},
-    "broly(s)": { id: 10, image: require("../../../../assets/characters/broly(s).png"), details: "BolyDetailsScreen"}
-}
-
-
-export const CharacterComponent = ({text, url, navigation}: Props) => {
-
-
-
+export const CharacterComponent = ({ id, nombre, imagen, navigation }: Props) => {
     return (
         <View style={styles.container}>
-            <TouchableOpacity onPress={() => {
-                navigation.navigate(imagenSource[url].details as any, {id: imagenSource[url].id});
-            }}>
-                <Image source={imagenSource[url].image} style={styles.imagen}></Image>
+            <TouchableOpacity onPress={() => navigation.navigate("CharacterDetailScreen", { id })}>
+                <Image source={{ uri: imagen }} style={styles.imagen} />
             </TouchableOpacity>
-            <Text style={styles.texto}>{text}</Text>
+            <Text style={styles.texto}>{nombre}</Text>
         </View>
     );
 };
-
-
 
 const styles = StyleSheet.create({
     container: {
@@ -59,6 +38,7 @@ const styles = StyleSheet.create({
         color: "white",
         marginTop: 5,
         textAlign: "center",
-
+        maxWidth: 100,
+        alignSelf: "center",
     },
-})
+});

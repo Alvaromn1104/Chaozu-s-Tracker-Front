@@ -4,7 +4,7 @@ export interface UserProfileInterface {
     userName: string,
     description?: string,
     clips: ClipsInterface[],
-    favoritos: number[]
+    favoritosIds: number[]
 }
 
 export type EditUserProfileInterface = Pick<UserProfileInterface, "id" | "userName" | "description">

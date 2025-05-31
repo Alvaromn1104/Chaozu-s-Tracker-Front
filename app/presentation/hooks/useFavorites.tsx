@@ -1,10 +1,12 @@
-import {useLocalStorage} from "./UseLocalStorage";
-import {useEffect, useState} from "react";
-import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useLocalStorage } from "./UseLocalStorage";
+import { useEffect, useState } from "react";
+import { GetUserProfileByUserIdUseCase } from "../../domain/useCases/userProfile/GetUserProfileInforByUseIdUseCase";
+import { AddFavoritoUseCase } from "../../domain/useCases/userProfile/AddFavoritoUseCase";
+import { RemoveFavoritoUseCase } from "../../domain/useCases/userProfile/RemoveFavUserProfile";
 
 export const useFavorites = () => {
-    const { user } = useLocalStorage();
-    const [favorites, setFavorites] = useState<Record<string, boolean>>({});
+    const { user } = useLocalStorage(); // user.id es el perfil del usuario
+    const [favorites, setFavorites] = useState<Set<number>>(new Set());
 
     useEffect(() => {
         if (user) {
@@ -13,44 +15,49 @@ export const useFavorites = () => {
     }, [user]);
 
     const loadFavorites = async () => {
+        if (!user?.id) return;
 
-        if(!user) return;
-
-        try{
-            const storedFavorites = await AsyncStorage.getItem(`favorites_${user.id}`);
-            if (storedFavorites) {
-                setFavorites(JSON.parse(storedFavorites));
-            }
-        }
-        catch (error) {
-            console.log("error cargando favoritos"+error);
+        try {
+            const profile = await GetUserProfileByUserIdUseCase(user.id);
+            setFavorites(new Set(profile.favoritosIds));
+        } catch (error) {
+            console.error("Error cargando favoritos del backend", error);
         }
     };
 
-
-    const toggleFavorite = async (itemId: string) => {
-        if (!user){
-            alert("Tienes que iniciar sesion para añadir favoritos a tu perfil");
+    const toggleFavorite = async (personajeId: number) => {
+        if (!user || !user.id) {
+            alert("Tienes que iniciar sesión para añadir favoritos.");
             return;
         }
 
-        const updatedFavorites = {
-            ...favorites,
-            [itemId]: !favorites[itemId]
-        };
-        setFavorites(updatedFavorites);
+        const isFav = favorites.has(personajeId);
+        try {
+            if (isFav) {
+                await RemoveFavoritoUseCase(user.id, personajeId);
+                setFavorites(prev => {
+                    const newSet = new Set(prev);
+                    newSet.delete(personajeId);
+                    return newSet;
+                });
+            } else {
+                await AddFavoritoUseCase(user.id, personajeId);
+                setFavorites(prev => new Set(prev).add(personajeId));
+            }
+        } catch (error) {
+            console.error("Error actualizando favorito", error);
+        }
+    };
 
-        try{
-            await AsyncStorage.setItem(`favorites_${user.id}`, JSON.stringify(updatedFavorites));
-        }
-        catch (error) {
-            console.log("error cargando favoritos"+error);
-        }
-    }
+
+    const isFavorite = (personajeId: number): boolean => {
+        return favorites.has(personajeId);
+    };
+
     return {
         favorites,
         toggleFavorite,
-        loadFavorites
+        isFavorite,
+        loadFavorites,
     };
-
-}
+};

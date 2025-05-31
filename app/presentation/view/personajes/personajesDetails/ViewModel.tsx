@@ -12,6 +12,7 @@ const CharacterDetailsViewModel = () => {
         try{
             const data = await GetCharacterInfoByIdUseCase(id);
             setCharacter(data);
+            return data ?? null;
         }
         catch (error) {
             setErrorMessage("Error al obtener la  informacion del personaje");
@@ -28,30 +29,24 @@ const CharacterDetailsViewModel = () => {
 
 const TransformationsViewModel = () => {
 
-    const [characterApi, setCharacterApi] = useState<string[] | null>(null);
+    const [transformations, setTransformations] = useState<CharacterDetail[] | null>(null);
     const [errorMessage2, setErrorMessage] = useState('');
 
-    const getTransformationsFromApiById = async (id: number) => {
-        try{
-
-            const data = await GetCharacterByIdUseCase(id);
-            if (data) {
-                setCharacterApi(data);
-            } else {
-                setErrorMessage("No se encontraron transformaciones.");
-            }
-
+    const fetchTransformations = async (ids: number[]) => {
+        try {
+            const results = await Promise.all(ids.map(id => GetCharacterInfoByIdUseCase(id)));
+            setTransformations(results);
+        } catch {
+            setErrorMessage("Error al obtener las transformaciones");
         }
-        catch (error) {
-            setErrorMessage("Error al obtener las transformaciones de la API")
-        }
-    }
+    };
 
     return {
-        characterApi,
+        transformations,
+        setTransformations,
         errorMessage2,
-        getTransformationsFromApiById
-    }
+        fetchTransformations
+    };
 };
 
 
