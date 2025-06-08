@@ -12,6 +12,7 @@ const imageSource: { [key:string]: any } = {
     "ctr": require('../../../../assets/imagenesCategorias/controles.png'),
     "his": require('../../../../assets/imagenesCategorias/historias.png'),
     "plt": require('../../../../assets/imagenesCategorias/platino.png'),
+    "cmd": require('../../../../assets/imagenesCategorias/comunidad.webp'),
 }
 
 export const BigCategorie = ({ text, url }: Props) =>{
@@ -19,6 +20,7 @@ export const BigCategorie = ({ text, url }: Props) =>{
         <View style={styles.container}>
             <View style={styles.imageContainer}>
                 <ImageBackground
+                    resizeMode='cover'
                     style={styles.imagen}
                     source={imageSource[url]}>
 
@@ -37,7 +39,7 @@ const styles = StyleSheet.create({
 
     },
     imageContainer: {
-        borderRadius: 10,
+        borderRadius: 6,
         borderColor: "black",
         borderWidth: 2,
         marginHorizontal: 15,

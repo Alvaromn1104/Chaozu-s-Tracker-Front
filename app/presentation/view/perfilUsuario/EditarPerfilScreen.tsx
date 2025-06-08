@@ -4,11 +4,22 @@ import {PropStackNaviation} from "../../interfaces/StackNav";
 import {useLocalStorage} from "../../hooks/UseLocalStorage";
 import ViewModel from "./PerfilUsuarioViewModel";
 import styles from "./EditarPerfilStyles";
+import {Picker} from "@react-native-picker/picker";
+import {RangoType} from "../../../domain/entities/RangoType";
+import {Dropdown} from "react-native-element-dropdown";
 
 export function EditarPerfilScreen({navigation, route}: PropStackNaviation) {
 
     const {user, getUserSession} = useLocalStorage();
-    const { userName, description, onChangeProfile, updateProfile, errorMessage, success } = ViewModel.EditarPerfilViewModel();
+    const { userName, description,rango, onChangeProfile, updateProfile, errorMessage, success } = ViewModel.EditarPerfilViewModel();
+    const rangos: RangoType[] = [
+        "UNRATED", "Z",
+        "S1", "S2", "S3", "S4", "S5",
+        "A1", "A2", "A3", "A4", "A5",
+        "B1", "B2", "B3", "B4", "B5",
+        "C1", "C2", "C3", "C4", "C5",
+        "D1", "D2", "D3", "D4", "D5"
+    ];
 
     const handleSave = async () => {
 
@@ -58,6 +69,23 @@ export function EditarPerfilScreen({navigation, route}: PropStackNaviation) {
                         placeholder="Nueva descripción"
                         placeholderTextColor="gray"
                         multiline
+                    />
+                </View>
+
+                <View style={styles.inputContainer}>
+                    <Text style={styles.label}>Rango</Text>
+                    <Dropdown
+                        style={styles.input}
+                        containerStyle={styles.dropdownContainer}
+                        placeholderStyle={styles.dropdownText}
+                        selectedTextStyle={styles.dropdownText}
+                        itemTextStyle={styles.dropdownItemText}
+                        data={rangos.map(r => ({ label: r, value: r }))}
+                        labelField="label"
+                        valueField="value"
+                        placeholder="Selecciona un rango"
+                        value={rango}
+                        onChange={(item) => onChangeProfile("rango", item.value)}
                     />
                 </View>
 

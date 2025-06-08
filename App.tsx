@@ -29,6 +29,8 @@ import {VegetaWhatIf1InfoScreen} from "./app/presentation/view/historia/Vegeta/V
 import {VegetaWhatIf2InfoScreen} from "./app/presentation/view/historia/Vegeta/VegetaWhatIf/VegetaWhatIf2InfoScreen";
 import {EditarPerfilScreen} from "./app/presentation/view/perfilUsuario/EditarPerfilScreen";
 import {PaperProvider} from "react-native-paper";
+import {ComunidadScreen} from "./app/presentation/view/comunidad/Comunidad";
+import {PerfilUsuarioAjenoScreen} from "./app/presentation/view/comunidad/otherProfiles/OtherUserProfileScreen";
 
 
 export type RootStackParamList = {
@@ -39,6 +41,7 @@ export type RootStackParamList = {
     DlcScreen: undefined,
     ControlesScreen: undefined,
     NoticiasScreen: undefined,
+    ComunidaScreen: undefined,
     PerfilUsuarioScreen: undefined,
     EditarPerfilScreen: undefined,
     HistoriaScreen: undefined,
@@ -49,6 +52,7 @@ export type RootStackParamList = {
     PiccoloHistoriaScreen: undefined,
     VegetaHistoriaScreen: undefined,
     CharacterDetailScreen: { id: number },
+    PerfilUsuarioAjenoScreen: { userId: number },
     FreezerWhatIfInfoScreen: undefined,
     GohanWhatIfInfoScreen: undefined,
     GokuWhatIf1InfoScreen: undefined,
@@ -81,11 +85,13 @@ export default function App() {
                         <Stack.Screen name={"LoginScreen"} component={LoginScreen}></Stack.Screen>
                         <Stack.Screen name={"RegistroScreen"} options={{headerShown: true, title: "Registro"}} component={RegistroScreen}></Stack.Screen>
                         <Stack.Screen name={"CharactersScreen"} options={{headerShown: false, title: "personajes"}} component={CharactersScreen}></Stack.Screen>
+                        <Stack.Screen name={"PerfilUsuarioAjenoScreen"} options={{headerShown: false, title: "otros perfiles"}} component={PerfilUsuarioAjenoScreen}></Stack.Screen>
                         <Stack.Screen name={"DlcScreen"} options={{headerShown: false, title: "dlcs"}} component={DlcScreen}></Stack.Screen>
                         <Stack.Screen name={"NoticiasScreen"} options={{headerShown: false, title: "noticias"}} component={NoticiasScreen}></Stack.Screen>
                         <Stack.Screen name={"PerfilUsuarioScreen"} options={{headerShown: false, title: "perfil de usuario"}} component={PerfilUsuarioScreen}></Stack.Screen>
                         <Stack.Screen name={"EditarPerfilScreen"} options={{headerShown: false, title: "Editar perfil de usuario"}} component={EditarPerfilScreen}></Stack.Screen>
                         <Stack.Screen name={"ControlesScreen"} options={{headerShown: false, title: "controles"}} component={ControlesScreen}></Stack.Screen>
+                        <Stack.Screen name={"ComunidaScreen"} options={{headerShown: false, title: "comunidad"}} component={ComunidadScreen}></Stack.Screen>
                         <Stack.Screen name={"HistoriaScreen"} options={{headerShown: false, title: "historia"}} component={HistoriaScreen}></Stack.Screen>
                         <Stack.Screen name={"PlatinoScreen"} options={{headerShown: false, title: "Platino"}} component={PlatinoScreen}></Stack.Screen>
                         <Stack.Screen name={"FrezzerHistoriaScreen"} options={{headerShown: false, title: "historia de freezer"}} component={FrezzerHistoriaScreen}></Stack.Screen>

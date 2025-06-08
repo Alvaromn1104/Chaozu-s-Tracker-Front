@@ -29,7 +29,36 @@ const styles = StyleSheet.create({
     },
     containerScroll: {
         width: "90%",
-    }
+    },
+    filtrosFila: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        marginHorizontal: 10,
+        marginTop: 10,
+        gap: 6,
+    },
+
+    botonLimpiarWrapper: {
+        alignItems: "center",
+        marginVertical: 5,
+    },
+
+    botonLimpiar: {
+        backgroundColor: "#f4b400",
+        borderRadius: 24,
+        width: 48,
+        height: 48,
+        justifyContent: "center",
+        alignItems: "center",
+    },
+
+    encabezadoFijo: {
+        paddingTop: 20,
+        paddingHorizontal: 16,
+        paddingBottom: 10,
+        backgroundColor: 'transparent',
+    },
 });
 
 export default styles;

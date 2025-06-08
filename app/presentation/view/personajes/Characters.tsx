@@ -54,38 +54,41 @@ export function CharactersScreen({ navigation }: PropStackNavigation) {
                 <Image style={styles.imagenChaoz} source={require("../../../../assets/logo.png")} />
                 <Text style={styles.titulo}>PERSONAJES</Text>
 
-                <TextInput
-                    placeholder="Buscar personaje"
-                    value={searchText}
-                    onChangeText={setSearchText}
-                    style={styles.buscador}
-                />
+                {/* CONTENEDOR CON MARGENES */}
+                <View style={styles.filtrosContainer}>
+                    <TextInput
+                        placeholder="Buscar personaje"
+                        value={searchText}
+                        onChangeText={setSearchText}
+                        style={styles.buscador}
+                    />
 
-                <View style={styles.filtrosFila}>
-                    <CustomPicker
-                        label="Raza"
-                        options={razas}
-                        selectedValue={selectedRaza}
-                        onValueChange={setSelectedRaza}
-                        iconName="account-group"
-                    />
-                    <CustomPicker
-                        label="Saga"
-                        options={sagas}
-                        selectedValue={selectedSaga}
-                        onValueChange={setSelectedSaga}
-                        iconName="book-open-page-variant"
-                    />
-                    <CustomPicker
-                        label="Puntos"
-                        options={costes}
-                        selectedValue={selectedCoste ? `${selectedCoste} DP` : null}
-                        onValueChange={(val) => {
-                            const parsed = val ? parseInt(val.split(" ")[0]) : null;
-                            setSelectedCoste(!isNaN(parsed as number) ? parsed : null);
-                        }}
-                        iconName="numeric"
-                    />
+                    <View style={styles.filtrosFila}>
+                        <CustomPicker
+                            label="Raza"
+                            options={razas}
+                            selectedValue={selectedRaza}
+                            onValueChange={setSelectedRaza}
+                            iconName="account-group"
+                        />
+                        <CustomPicker
+                            label="Saga"
+                            options={sagas}
+                            selectedValue={selectedSaga}
+                            onValueChange={setSelectedSaga}
+                            iconName="book-open-page-variant"
+                        />
+                        <CustomPicker
+                            label="Puntos"
+                            options={costes}
+                            selectedValue={selectedCoste ? `${selectedCoste} DP` : null}
+                            onValueChange={(val) => {
+                                const parsed = val ? parseInt(val.split(" ")[0]) : null;
+                                setSelectedCoste(!isNaN(parsed as number) ? parsed : null);
+                            }}
+                            iconName="numeric"
+                        />
+                    </View>
                 </View>
 
                 {(selectedRaza || selectedSaga || selectedCoste) && (

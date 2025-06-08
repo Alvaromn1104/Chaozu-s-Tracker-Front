@@ -28,6 +28,9 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         alignSelf: 'center',
     },
+    scrollContent: {
+        paddingBottom: 20,
+    },
 });
 
 export default styles;

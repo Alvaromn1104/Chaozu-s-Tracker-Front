@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
         borderRadius: 8,
         paddingHorizontal: 10,
     },
+
     saveButton: {
         backgroundColor: 'rgba(255, 140, 0, 0.9)', // Naranja
         paddingVertical: 12,
@@ -65,6 +66,24 @@ const styles = StyleSheet.create({
         textShadowColor: 'black',
         textShadowOffset: { width: 1, height: 1 },
         textShadowRadius: 2,
+    },
+    dropdownText: {
+        fontFamily: AppTheme.cuerpo,
+        fontSize: 17,
+        color: 'black',
+    },
+
+    dropdownItemText: {
+        fontFamily: AppTheme.cuerpo,
+        fontSize: 16,
+        color: 'black',
+    },
+
+    dropdownContainer: {
+        borderRadius: 8,
+        borderColor: 'black',
+        borderWidth: 1,
+        width: 370
     },
     cancelButton: {
         backgroundColor: 'rgba(255, 255, 255, 0.3)',

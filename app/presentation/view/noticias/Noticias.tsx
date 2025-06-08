@@ -13,7 +13,7 @@ export function NoticiasScreen({navigation, route}: PropStackNaviation) {
                 </View>
 
                 <NoticiasRectangle
-                    videoUrl={'https://www.youtube.com/embed/2f8v9L8fyok'}
+                    videoUrl={'https://www.youtube.com/embed/1Tq44hKBQik'}
                     title={"AJUSTES EN EL SISTEMA DE COMBATE"}
                     description={"Ataques de carga (ataque de golpe o cadena frenética): ya no retrocederás mientras cargues al recibir un ataque frenético o una Ráfaga de Ki frenética de un rival en el modo Sparking!.\n" +
                         "Ataque frenético: ahora es más difícil ejecutar por error un ataque de golpe durante los ataques frenéticos.\n" +

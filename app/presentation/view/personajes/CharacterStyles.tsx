@@ -45,6 +45,8 @@ const styles = StyleSheet.create({
         margin: 10,
         padding: 8,
         borderRadius: 8,
+        fontSize: 12,
+        fontFamily: AppTheme.titulo,
     },
     filtrosFila: {
         flexDirection: "row",
@@ -55,6 +57,9 @@ const styles = StyleSheet.create({
         gap: 6,
     },
 
+    filtrosContainer: {
+        paddingHorizontal: 16,
+    },
     botonLimpiarWrapper: {
         alignItems: "center",
         marginVertical: 5,
